@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #630000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+}
+
+main{
+    width: 100vw;
+    background-color: #EEEBDD;
+}
+
+a{
+    text-decoration: none;
+    color: #EEEBDD;
+}
+
+img{
+    height: 60vh;
+    width: 60vw;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+    float: left;
+}
+
+.skill-info{
+    font-size: large;
+    text-align: start;
+    /* padding: 1rem; */
+}
+section{
+    padding-left: 2rem;
+}
+
+ul{
+    list-style: square;
+    color: #810000;
+    margin-bottom: 1rem;
+}
+
+h1{
+    color: #1B1717;
+    margin-bottom: 1rem;
+}
